@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { SITE_NAME } from '../utils/constants';
+import { SITE_NAME } from '@/utils/constants';
 
 const Header: React.FC = () => {
   return (

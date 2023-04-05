@@ -15,11 +15,11 @@ import { GetStaticProps } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
 
-import Layout from '../components/Layout';
-import Thumbnail from '../components/Thumbnail';
-import { IPost } from '../types/post';
-import { SITE_NAME } from '../utils/constants';
-import { getAllPosts } from '../utils/mdxUtils';
+import Layout from '@/components/Layout';
+import Thumbnail from '@/components/Thumbnail';
+import { IPost } from '@/types/post';
+import { SITE_NAME } from '@/utils/constants';
+import { getAllPosts } from '@/utils/mdxUtils';
 
 type Props = {
   posts: IPost[];
